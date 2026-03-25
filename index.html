@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-card">
+        <h2>My To-Do List</h2>
+        
+        <div class="input-wrapper">
+            <input type="text" id="task-input" placeholder="Add new task...">
+            <button id="add-btn">+</button>
+        </div>
+
+        <ul id="task-list">
+            <li>
+                <div class="task-text"><input type="checkbox"> Learn jQuery selectors</div>
+                <span class="delete-x">&times;</span>
+            </li>
+            <li>
+                <div class="task-text"><input type="checkbox"> Setup project environment</div>
+                <span class="delete-x">&times;</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

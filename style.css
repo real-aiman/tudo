@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(180deg, #15152a 0%, #0a0a14 100%);
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-card {
+    width: 320px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #2a2a4a;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700; 
+    margin-bottom: 20px;
+    color: #efefef;
+}
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#task-input {
+    width: 100%;
+    background: #1e1e35;
+    border: 1px solid #3a3a5a;
+    padding: 12px 45px 12px 12px;
+    border-radius: 6px;
+    color: #ccc;
+    outline: none;
+}
+
+#add-btn {
+    position: absolute;
+    right: 6px;
+    background-color: #35c5fd; 
+    border: none;
+    color: #000;
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5px;
+    border-bottom: 1px solid #252545;
+}
+
+.task-text {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #ddd;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    color: #35c5fd;
+}
+
+.delete-x {
+    color: #888;
+    font-size: 20px;
+    cursor: pointer;
+}
